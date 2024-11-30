@@ -3,38 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UniMatch</title>
+
+ <link rel="stylesheet" href="style.css">
+
+ 
 </head>
 <body>
       <header>
-        <h1>UniMatch</h1>
+        <div class="Uni-Title1">
+    UniMatch♡</div>
+       <div class="Center">
         <nav>
             <ul>
            <li><a href="#register">Register</a></li>
                 <li><a href="#users">Users</a></li>
             </ul>
         </nav>
+       </div> 
     </header>
 
-    <main>
+    <div class="Center"><main>
         <section id="register">
-            <h2>Register</h2>
-            <form id="registrationForm">
-                <input type="text" id="name" placeholder="Name" required>
-                <input type="email" id="email" placeholder="Email" required>
-                <br>
-            <br>
-        
-                <textarea id="bio" placeholder="Tell us about yourself" required></textarea>
+            <h1>Sign Up</h1>
+            <form action="thankyou.html" method="get">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                 <textarea id="bio" placeholder="Tell us about yourself" required></textarea>
                 <button type="submit">Register</button>
-            </form>
+            
         </section>
 
         <section id="users">
             <h2>Registered Users</h2>
             <ul id="userList"></ul>
         </section>
-        <header>200,000 users</header>
+        <header>🟢100,000 Possible Matches!</header>
     </main>
 
     <footer>
@@ -51,17 +55,45 @@
     <br>
 
     <label for="college">Select Your College:</label>
-    <select id="college" required>
-        <option value="">--Please choose an option--</option>
+    <select id="college" required>  <option value="">--Please choose an option--</option>
         <option value="collegeA">NJIT</option>
         <option value="collegeB">Seton Hall</option>
         <option value="collegeC">Rutgers</option>
-        <option value="collegeA">Essex County</option>
+        <option value="collegeA">Essex County</option></select>
+      
+       
+    </div> 
+    <img src="/UniMatch\New folder\njit-highlanders3857.jpg" height=270px> <img src="/UniMatch\New folder\images.jpg" height=270px> <img src="/UniMatch\New folder\9f8234d4ea16cb7abe0a1bfcc485c915.jpg" height=270px> <img src="/UniMatch\New folder\download.jpg" height=270px >
 
-        
-<img src="t_njit-highlanders3857.jpg" width="300px" height="200px">
+
+
+    
+
+    <div class="reviews">
+        <h2>User Reviews</h2>
+
+        <div class="review">
+            <p class="reviewer">Jessica, 20:</p>
+            <p>"I met my soulmate here, The community is so supportive, and the events are a lot of fun!"</p>
+        </div>
+
+        <div class="review">
+            <p class="reviewer">Mark, 23:</p>
+            <p>"I was skeptical at first, but I found someone from another college who  shares my interests and values."</p>
+        </div>
+
+        <div class="review">
+            <p class="reviewer">Sarah, 19:</p>
+            <p>"This site is soooooo easy to use!"</p>
+        </div>
+
+        <div class="review">
+            <p class="reviewer">John, 21:</p>
+            <p>"It's a great way to meet people in person from other schools!"</p>
+        </div>
+
+    </div>
+
+
 
 </body>
-</html>
-</body>
-</html>
